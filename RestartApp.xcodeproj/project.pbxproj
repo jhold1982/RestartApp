@@ -11,6 +11,12 @@
 		64441C502A42356100778E66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64441C4F2A42356100778E66 /* ContentView.swift */; };
 		64441C522A42356200778E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64441C512A42356200778E66 /* Assets.xcassets */; };
 		64441C552A42356200778E66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64441C542A42356200778E66 /* Preview Assets.xcassets */; };
+		64441C5E2A423A7C00778E66 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64441C5C2A423A7C00778E66 /* chimeup.mp3 */; };
+		64441C5F2A423A7C00778E66 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 64441C5D2A423A7C00778E66 /* success.m4a */; };
+		64441C642A423B9F00778E66 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64441C632A423B9F00778E66 /* AudioPlayer.swift */; };
+		64441C662A423C1C00778E66 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64441C652A423C1C00778E66 /* CircleGroupView.swift */; };
+		64441C682A423C2600778E66 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64441C672A423C2600778E66 /* HomeView.swift */; };
+		64441C6A2A423C2F00778E66 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64441C692A423C2F00778E66 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		64441C4F2A42356100778E66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64441C512A42356200778E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64441C542A42356200778E66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64441C5C2A423A7C00778E66 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		64441C5D2A423A7C00778E66 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
+		64441C602A423AA700778E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		64441C632A423B9F00778E66 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		64441C652A423C1C00778E66 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		64441C672A423C2600778E66 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		64441C692A423C2F00778E66 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +66,10 @@
 			children = (
 				64441C4D2A42356100778E66 /* RestartAppApp.swift */,
 				64441C4F2A42356100778E66 /* ContentView.swift */,
+				64441C622A423B9200778E66 /* Views */,
+				64441C612A423B7100778E66 /* Utilities */,
+				64441C5B2A423A1400778E66 /* Sounds */,
+				64441C602A423AA700778E66 /* Info.plist */,
 				64441C512A42356200778E66 /* Assets.xcassets */,
 				64441C532A42356200778E66 /* Preview Content */,
 			);
@@ -65,6 +82,33 @@
 				64441C542A42356200778E66 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64441C5B2A423A1400778E66 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				64441C5C2A423A7C00778E66 /* chimeup.mp3 */,
+				64441C5D2A423A7C00778E66 /* success.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		64441C612A423B7100778E66 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				64441C632A423B9F00778E66 /* AudioPlayer.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		64441C622A423B9200778E66 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64441C652A423C1C00778E66 /* CircleGroupView.swift */,
+				64441C672A423C2600778E66 /* HomeView.swift */,
+				64441C692A423C2F00778E66 /* OnboardingView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +169,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64441C5F2A423A7C00778E66 /* success.m4a in Resources */,
+				64441C5E2A423A7C00778E66 /* chimeup.mp3 in Resources */,
 				64441C552A42356200778E66 /* Preview Assets.xcassets in Resources */,
 				64441C522A42356200778E66 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +185,10 @@
 			files = (
 				64441C502A42356100778E66 /* ContentView.swift in Sources */,
 				64441C4E2A42356100778E66 /* RestartAppApp.swift in Sources */,
+				64441C662A423C1C00778E66 /* CircleGroupView.swift in Sources */,
+				64441C6A2A423C2F00778E66 /* OnboardingView.swift in Sources */,
+				64441C682A423C2600778E66 /* HomeView.swift in Sources */,
+				64441C642A423B9F00778E66 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +320,9 @@
 				DEVELOPMENT_TEAM = N8877H53MP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RestartApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +349,9 @@
 				DEVELOPMENT_TEAM = N8877H53MP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RestartApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
